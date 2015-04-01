@@ -1,5 +1,5 @@
 Parse.INI <- function(INI.filename) 
-{ 
+{
     connection <- file(INI.filename) 
     Lines  <- readLines(connection) 
     close(connection) 
