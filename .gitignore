@@ -1,2 +1,7 @@
 .RProj*
 *.Rproj
+.Rproj.user
+cluster.ini
+.RData
+.Rhistory
+data/*

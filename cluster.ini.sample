@@ -1,0 +1,17 @@
+[cluster]
+host=""
+port=""
+dbname=""
+user=""
+pass=""
+
+[schema]
+name=""
+
+[table]
+users=""
+
+[field_users]
+country=""
+tester=""
+

@@ -1,9 +1,6 @@
-data <- data.frame(
-    countries = c("Spain", "Vizcaya"),
-    gpd = c(1.2,-3),
-    k = 3
-)
+mtcars2 <- mtcars
 
-positive_g = data$gpd > 0
+mtcars2$hp_cat <- "High"
+mtcars2[mtcars2$hp < mean(mtcars2$hp),]$hp_cat <- "Low"
 
-data[, positive_g]
+View(mtcars2)
